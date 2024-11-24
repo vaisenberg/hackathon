@@ -1,0 +1,21 @@
+[
+    {
+        "Symbol": "USDILS:CUR",
+        "Name": "USDILS",
+        "Country": "Israel",
+        "Date": "2024-11-22T12:05:15.527",
+        "Type": "currency",
+        "Last": 3.71545,
+        "Unit": NaN,
+        "URL": "/israel/currency",
+        "Importance": 40,
+        "Forecast1": 3.781393,
+        "ForecastDate1": "31/12/2024",
+        "Forecast2": 3.822169,
+        "ForecastDate2": "31/03/2025",
+        "Forecast3": 3.863694,
+        "ForecastDate3": "30/06/2025",
+        "Forecast4": 3.905219,
+        "ForecastDate4": "30/09/2025"
+    }
+]
