@@ -1,5 +1,5 @@
-from currency_converter_class import ILSConverter  # Assuming the ILSConverter is in this file
-from Fetch_portfolio import fetch_currency_portfolio  # Assuming this function fetches portfolio from DB
+from currency_converter_class import ILSConverter  
+from Fetch_portfolio import fetch_currency_portfolio  
 import psycopg2
 from psycopg2 import sql
 from config import DATABASE
@@ -23,11 +23,10 @@ def check_customer_exists(client_id):
     
     if customer:
         print(f"Client with ID {client_id} exists.")
-        print(f"Name: {customer[1]}")  # Assuming column 1 is name
-        print(f"Current Balance: {customer[2]}")  # Assuming column 2 is email
-        # print(f"Current Balance: {customer[3]:.2f} ILS")  # Assuming column 3 is balance
+        print(f"Name: {customer[1]}")  
+        print(f"Current Balance: {customer[2]}")
+        # print(f"Current Balance: {customer[3]:.2f} ILS") 
         
-        # Prompt for the new balance in Shekels
         try:
             new_balance = float(input("Enter the new balance in Shekels (ILS): "))
                 
